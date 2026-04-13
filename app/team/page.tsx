@@ -14,7 +14,7 @@ const titleColors: Record<string, string> = {
   "Chief Marketing Officer": "bg-orange/10 text-orange",
   "Chief Technology Officer": "bg-blue-50 text-blue-700",
   "Chief Risk Officer": "bg-gray-100 text-gray-600",
-  Treasurer: "bg-green-50 text-green-700",
+  "Chief Financial Officer": "bg-green-50 text-green-700",
 };
 
 function getInitials(name: string) {

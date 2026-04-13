@@ -65,7 +65,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="#"
+              href="https://forms.gle/XgDAnvKSykMYqgEM6"
               className="ml-3 px-4 py-2 rounded-lg text-sm font-semibold bg-maroon text-white hover:bg-maroon-900 transition-all duration-200 shadow-sm"
             >
               Join MERIT

@@ -13,7 +13,7 @@ const titleColors: Record<string, string> = {
   "Vice President": "bg-maroon/10 text-maroon",
   "Chief Marketing Officer": "bg-orange/10 text-orange",
   "Chief Technology Officer": "bg-blue-50 text-blue-700",
-  "Risk Officer": "bg-gray-100 text-gray-600",
+  "Chief Risk Officer": "bg-gray-100 text-gray-600",
   Treasurer: "bg-green-50 text-green-700",
 };
 

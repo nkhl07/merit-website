@@ -104,7 +104,7 @@ export default function Navbar() {
             ))}
             <div className="pt-2">
               <Link
-                href="#"
+                href="https://forms.gle/XgDAnvKSykMYqgEM6"
                 className="block w-full text-center px-4 py-3 rounded-lg text-sm font-semibold bg-maroon text-white hover:bg-maroon-900 transition-colors"
               >
                 Join MERIT

@@ -43,7 +43,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Salahuddin (Sal) Allah",
-    title: "Treasurer",
+    title: "Chief Financial Officer",
     description:
       "Manages club finances and financial records, tracks income, expenses, and reimbursements, collects dues, prepares financial reports, and ensures all spending aligns with the budget.",
     photo: "/images/exec-team-photos/sal linkedin pfp.png",

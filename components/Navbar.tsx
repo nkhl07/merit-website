@@ -70,7 +70,7 @@ export default function Navbar() {
             >
               Join MERIT
             <Link
-              href="https://forms.gle/XgDAnvKSykMYqgEM6"/>
+              href="https://forms.gle/XgDAnvKSykMYqgEM6"
           </div>
 
           {/* Mobile hamburger */}

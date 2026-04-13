@@ -29,7 +29,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Max Tucker",
-    title: "Risk Officer",
+    title: "Chief Risk Officer",
     description:
       "Identifies risks related to events and operations, ensures compliance with university rules and safety procedures, advises the board on high-risk decisions, and handles issue resolution.",
     photo: "/images/exec-team-photos/max linkedin pfp.png",

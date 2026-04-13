@@ -106,11 +106,7 @@ export default function Home() {
           </AnimateIn>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-400">
-          <span className="text-xs font-medium uppercase tracking-widest">Scroll</span>
-          <div className="w-px h-8 bg-gradient-to-b from-gray-300 to-transparent" />
-        </div>
+
       </section>
 
       {/* ── Mission ── */}

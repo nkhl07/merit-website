@@ -69,7 +69,7 @@ export const placements: Placement[] = [
     company: "Integrus Partners",
     role: "Analyst",
     quote: "",
-    logo: "/images/placements-photos/Verizon_2024.svg.png",
+    logo: "/images/placements-photos/1708738430579.jpeg",
     year: 2025,
     type: "Internship",
   },

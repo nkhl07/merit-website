@@ -55,7 +55,7 @@ export const placements: Placement[] = [
     type: "Full-Time",
   },
   {
-    memberName: "Lakhit Soma",
+    memberName: "",
     company: "Verizon",
     role: "Analyst",
     quote: "",
@@ -70,6 +70,16 @@ export const placements: Placement[] = [
     role: "Analyst",
     quote: "",
     logo: "/images/placements-photos/1708738430579.jpeg",
+    year: 2025,
+    type: "Internship",
+  },
+
+  {
+    memberName: "Noah Kornfeld",
+    company: "F3 Global",
+    role: "Analyst",
+    quote: "",
+    logo: "public/images/placements-photos/f3global_logo.jpeg",
     year: 2025,
     type: "Internship",
   },

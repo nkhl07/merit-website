@@ -104,9 +104,13 @@ export default function Navbar() {
             ))}
             <div className="pt-2">
               <Link
-                <a href="https://forms.gle/XgDAnvKSykMYqgEM6" target="_blank">
-                      Open Form
-                </a>
+                <a
+                href="https://forms.gle/XgDAnvKSykMYqgEM6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center px-4 py-3 rounded-lg text-sm font-semibold"
+>
+</a>
                 className="block w-full text-center px-4 py-3 rounded-lg text-sm font-semibold bg-maroon text-white hover:bg-maroon-900 transition-colors"
               >
                 Join MERIT

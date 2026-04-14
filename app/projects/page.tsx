@@ -75,7 +75,7 @@ export default function ProjectsPage() {
                   intersection of research, strategy, and technology.
                 </p>
                 <a
-                  href="mailto:meritvtech@gmail.com"
+                  href="mailto:meritvtech@gmail.com" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-white text-maroon font-bold hover:bg-gray-50 transition-all duration-200"
                 >
                   Get In Touch

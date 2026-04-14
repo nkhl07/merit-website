@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"git add app/placements/page.tsx && git rebase --continue 2>&1\",\"description\":\"Stage resolved file and continue rebase\"}",
+  "error": "Exit code 1\nYou must edit all merge conflicts and then\nmark them as resolved using git add\n[rerun: b6]",
+  "timestamp": "2026-04-14T19:04:37.803Z",
+  "retry_count": 4
+}

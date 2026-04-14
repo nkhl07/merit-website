@@ -234,7 +234,7 @@ export default function Home() {
               after graduation to start their careers.
             </p>
             <Link
-              href="https://forms.gle/XgDAnvKSykMYqgEM6"
+              href="https://forms.gle/XgDAnvKSykMYqgEM6" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-maroon font-bold text-base hover:bg-gray-50 transition-all duration-200 shadow-xl hover:-translate-y-0.5"
             >
               Apply to Join MERIT

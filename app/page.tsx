@@ -200,19 +200,15 @@ export default function Home() {
                 .map((p) => (
                   <div
                     key={p.company}
-                    className="flex flex-col items-center justify-between gap-3 p-4 bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200"
+                    className="flex items-center justify-center p-4 aspect-square bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200"
                   >
                     <Image
                       src={p.logo!}
                       alt={p.company}
                       width={200}
                       height={100}
-                      className="object-contain w-full h-14"
+                      className="object-contain w-full h-full"
                     />
-                    <div className="text-center">
-                      <div className="text-xs font-semibold text-gray-700">{p.memberName}</div>
-                      <div className="text-xs text-gray-400">{p.year}</div>
-                    </div>
                   </div>
                 ))}
             </div>

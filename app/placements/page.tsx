@@ -126,7 +126,7 @@ export default function PlacementsPage() {
               MERIT members who land internships and full-time offers are encouraged to share their story.
             </p>
             <a
-              href="#"
+              href="mailto:meritvtech@gmail.com"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-maroon text-white font-semibold hover:bg-maroon-900 transition-all duration-200 shadow-lg"
             >
               Submit Your Placement

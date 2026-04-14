@@ -110,8 +110,18 @@ export default function Home() {
       </section>
 
       {/* ── Mission ── */}
-      <section className="py-24 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/exec-team-photos/wpp-burruss-desktop-16x9-2133x1200.jpg"
+            alt="Burruss Hall"
+            fill
+            className="object-cover"
+            priority={false}
+          />
+          <div className="absolute inset-0 bg-white/85" />
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateIn>
             <div className="text-center mb-12">
               <span className="text-sm font-semibold uppercase tracking-widest text-orange">

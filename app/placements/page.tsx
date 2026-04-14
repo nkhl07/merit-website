@@ -59,7 +59,6 @@ export default function PlacementsPage() {
                     <div className="text-center">
                       <div className="text-xs font-semibold text-gray-700">{p.memberName}</div>
                       <div className="text-xs text-gray-400">{p.company}</div>
-                      <div className="text-xs text-gray-400">{p.year}</div>
                     </div>
                   </div>
                 </AnimateIn>

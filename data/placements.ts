@@ -10,31 +10,31 @@ export interface Placement {
 
 export const placements: Placement[] = [
   {
-    memberName: "Cadric Tackey",
+    memberName: "Likith Soma",
     company: "Liberty Mutual",
-    role: "Analyst",
+    role: "TechStart Intern",
     quote: "",
     logo: "/images/placements-photos/Liberty-Mutual_47397411-0401-6FB8-5289559A40ACA7ED-4739734ed8fcd3e_47397ed8-09a6-c97e-a298dd5ecd529446.jpg",
     year: 2025,
-    type: "Full-Time",
+    type: "Internship",
   },
   {
     memberName: "Sam Eastman",
     company: "Mitsubishi UFJ Financial Group",
-    role: "Analyst",
+    role: "Investment Banking Analyst",
     quote: "",
     logo: "/images/placements-photos/Mitsubishi_UFJ_Financial_Group_logo.gif",
     year: 2025,
     type: "Full-Time",
   },
   {
-    memberName: "Michael",
+    memberName: "Michael Calandra",
     company: "CSC Global",
-    role: "Analyst",
+    role: "Digital Brand and Corporate Legal Services Intern",
     quote: "",
     logo: "/images/placements-photos/csc-global-420x320-20190911.png",
     year: 2025,
-    type: "Full-Time",
+    type: "Internship",
   },
   {
     memberName: "Ben Woltman",

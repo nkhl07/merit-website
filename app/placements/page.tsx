@@ -13,8 +13,12 @@ export default function PlacementsPage() {
   return (
     <div className="pt-16">
       {/* Header */}
-      <section className="pt-20 pb-16 bg-white border-b border-gray-100">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="pt-20 pb-16 relative overflow-hidden border-b border-gray-100">
+        <div className="absolute inset-0 z-0">
+          <img src="/images/exec-team-photos/wpp-burruss-desktop-16x9-2133x1200.jpg" alt="Burruss Hall" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-white/85" />
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimateIn>
             <span className="text-sm font-semibold uppercase tracking-widest text-orange">
               Where We&apos;re Headed

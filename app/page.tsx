@@ -39,21 +39,19 @@ export default function Home() {
   return (
     <>
       {/* ── Hero ── */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white pt-16">
-        {/* Background grid decoration */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage:
-              "linear-gradient(#861F41 1px, transparent 1px), linear-gradient(to right, #861F41 1px, transparent 1px)",
-            backgroundSize: "60px 60px",
-          }}
-        />
-        {/* Gradient blobs */}
-        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-maroon/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-orange/10 rounded-full blur-3xl pointer-events-none" />
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/exec-team-photos/wpp-burruss-desktop-16x9-2133x1200.jpg"
+            alt="Burruss Hall"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-white/85" />
+        </div>
 
-        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-24">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-24">
           <AnimateIn delay={0}>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-maroon/20 bg-maroon/5 text-maroon text-sm font-medium mb-8">
               <span className="w-2 h-2 bg-maroon rounded-full animate-pulse" />
@@ -110,18 +108,8 @@ export default function Home() {
       </section>
 
       {/* ── Mission ── */}
-      <section className="py-24 relative overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/exec-team-photos/wpp-burruss-desktop-16x9-2133x1200.jpg"
-            alt="Burruss Hall"
-            fill
-            className="object-cover"
-            priority={false}
-          />
-          <div className="absolute inset-0 bg-white/85" />
-        </div>
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateIn>
             <div className="text-center mb-12">
               <span className="text-sm font-semibold uppercase tracking-widest text-orange">

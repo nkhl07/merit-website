@@ -79,7 +79,7 @@ export const placements: Placement[] = [
     company: "F3 Global",
     role: "Analyst",
     quote: "",
-    logo: "public/images/placements-photos/f3global_logo.jpeg",
+    logo: "/images/placements-photos/f3global_logo.jpeg",
     year: 2025,
     type: "Internship",
   },

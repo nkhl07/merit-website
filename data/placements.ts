@@ -83,4 +83,15 @@ export const placements: Placement[] = [
     year: 2025,
     type: "Internship",
   },
+
+  {
+    memberName: "Max Tucker",
+    company: "US Federal Government",
+    role: "Analyst",
+    quote: "",
+    logo: "/images/placements-photos/us_federal_government_logo.jpeg",
+    year: 2025,
+    type: "Internship",
+  },
+  
 ];

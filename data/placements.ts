@@ -39,7 +39,7 @@ export const placements: Placement[] = [
   },
   {
     memberName: "Connor Rousset",
-    company: "Amazon",
+    company: "Amazon Web Services",
     role: "Analyst",
     quote: "",
     logo: "/images/placements-photos/1703827359106.jpeg",

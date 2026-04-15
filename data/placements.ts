@@ -9,14 +9,14 @@ export interface Placement {
 }
 
 export const placements: Placement[] = [
-  {
-    memberName: "Likith Soma",
-    company: "Liberty Mutual",
-    role: "TechStart Intern",
+ {
+    memberName: "Connor Rousset",
+    company: "Amazon Web Services",
+    role: "Analyst",
     quote: "",
-    logo: "/images/placements-photos/Liberty-Mutual_47397411-0401-6FB8-5289559A40ACA7ED-4739734ed8fcd3e_47397ed8-09a6-c97e-a298dd5ecd529446.jpg",
+    logo: "/images/placements-photos/1703827359106.jpeg",
     year: 2025,
-    type: "Internship",
+    type: "Full-Time",
   },
   
   {
@@ -28,36 +28,8 @@ export const placements: Placement[] = [
     year: 2025,
     type: "Internship",
   },
-  {
-    memberName: "Ben Woltman",
-    company: "Invictus Capital Partners",
-    role: "Analyst",
-    quote: "",
-    logo: "/images/placements-photos/1631325492077.jpeg",
-    year: 2025,
-    type: "Full-Time",
-  },
-  {
-    memberName: "Connor Rousset",
-    company: "Amazon Web Services",
-    role: "Analyst",
-    quote: "",
-    logo: "/images/placements-photos/1703827359106.jpeg",
-    year: 2025,
-    type: "Full-Time",
-  },
 
-  {
-    memberName: "Darshan Gokulraj",
-    company: "Integrus Partners",
-    role: "Analyst",
-    quote: "",
-    logo: "/images/placements-photos/1708738430579.jpeg",
-    year: 2025,
-    type: "Internship",
-  },
-
-  {
+ {
     memberName: "Noah Kornfeld",
     company: "F3 Global",
     role: "Analyst",
@@ -67,6 +39,37 @@ export const placements: Placement[] = [
     type: "Internship",
   },
 
+ {
+    memberName: "Darshan Gokulraj",
+    company: "Integrus Partners",
+    role: "Analyst",
+    quote: "",
+    logo: "/images/placements-photos/1708738430579.jpeg",
+    year: 2025,
+    type: "Internship",
+  },
+  
+  
+  {
+    memberName: "Ben Woltman",
+    company: "Invictus Capital Partners",
+    role: "Analyst",
+    quote: "",
+    logo: "/images/placements-photos/1631325492077.jpeg",
+    year: 2025,
+    type: "Full-Time",
+  },
+  
+  {
+    memberName: "Likith Soma",
+    company: "Liberty Mutual",
+    role: "TechStart Intern",
+    quote: "",
+    logo: "/images/placements-photos/Liberty-Mutual_47397411-0401-6FB8-5289559A40ACA7ED-4739734ed8fcd3e_47397ed8-09a6-c97e-a298dd5ecd529446.jpg",
+    year: 2025,
+    type: "Internship",
+  },
+  
   {
     memberName: "Max Tucker",
     company: "US Federal Government",

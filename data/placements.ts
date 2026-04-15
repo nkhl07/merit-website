@@ -10,7 +10,7 @@ export interface Placement {
 
 export const placements: Placement[] = [
  {
-    memberName: "Connor Rousset",
+    memberName: "Connor Roussel",
     company: "Amazon Web Services",
     role: "Analyst",
     quote: "",
@@ -76,6 +76,16 @@ export const placements: Placement[] = [
     role: "Analyst",
     quote: "",
     logo: "/images/placements-photos/us_federal_government_logo.jpeg",
+    year: 2025,
+    type: "Internship",
+  },
+
+  {
+    memberName: "Max Tucker",
+    company: "Verizon",
+    role: "Analyst",
+    quote: "",
+    logo: "/images/placements-photos/Verizon_2024.svg.png",
     year: 2025,
     type: "Internship",
   },

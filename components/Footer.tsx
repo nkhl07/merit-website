@@ -18,7 +18,7 @@ function TikTokIcon({ size = 20 }: { size?: number }) {
 const socialLinks = [
   { label: "Instagram", href: "#", icon: Instagram },
   { label: "TikTok", href: "#", icon: TikTokIcon },
-  { label: "LinkedIn", href= "https://www.linkedin.com/company/merit-vt/", icon: Linkedin },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/merit-vt/", icon: Linkedin },
 ];
 
 const footerLinks = [

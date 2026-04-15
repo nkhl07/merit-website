@@ -18,15 +18,7 @@ export const placements: Placement[] = [
     year: 2025,
     type: "Internship",
   },
-  {
-    memberName: "Sam Eastman",
-    company: "Mitsubishi UFJ Financial Group",
-    role: "Investment Banking Analyst",
-    quote: "",
-    logo: "/images/placements-photos/Mitsubishi_UFJ_Financial_Group_logo.gif",
-    year: 2025,
-    type: "Full-Time",
-  },
+  
   {
     memberName: "Michael Calandra",
     company: "CSC Global",

@@ -81,7 +81,7 @@ export const placements: Placement[] = [
   },
 
   {
-    memberName: "Max Tucker",
+    memberName: "Arhan Sethi",
     company: "Verizon",
     role: "Analyst",
     quote: "",

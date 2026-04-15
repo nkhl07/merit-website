@@ -42,7 +42,7 @@ export const placements: Placement[] = [
     company: "Amazon",
     role: "Analyst",
     quote: "",
-    logo: "/images/placements-photos/Amazon_logo.svg.webp",
+    logo: "/images/placements-photos/1703827359106.jpeg",
     year: 2025,
     type: "Full-Time",
   },

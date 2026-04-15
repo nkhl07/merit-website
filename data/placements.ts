@@ -46,15 +46,6 @@ export const placements: Placement[] = [
     year: 2025,
     type: "Full-Time",
   },
-  {
-    memberName: "",
-    company: "Verizon",
-    role: "Analyst",
-    quote: "",
-    logo: "/images/placements-photos/Verizon_2024.svg.png",
-    year: 2025,
-    type: "Full-Time",
-  },
 
   {
     memberName: "Darshan Gokulraj",

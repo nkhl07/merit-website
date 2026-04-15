@@ -26,6 +26,7 @@ const footerLinks = [
   { href: "/team", label: "Team" },
   { href: "/placements", label: "Placements" },
   { href: "/projects", label: "Projects" },
+  { href: " ", label: "Partnerships"},
   { href: "#", label: "GobblerConnect" },
 ];
 

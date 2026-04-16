@@ -64,7 +64,7 @@ export const placements: Placement[] = [
     company: "Pareto Technologies",
     role: "Analyst",
     quote: "",
-    logo: "public/images/placements-photos/images.jpeg",
+    logo: "images/placements-photos/pareto_technologies_llc_logo.jpeg",
     year: 2025,
     type: "Internship",
   },

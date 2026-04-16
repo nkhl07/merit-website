@@ -49,13 +49,22 @@ export const placements: Placement[] = [
     type: "Internship",
   },
   
-  
   {
     memberName: "Ben Woltman",
     company: "Invictus Capital Partners",
     role: "Analyst",
     quote: "",
     logo: "/images/placements-photos/1631325492077.jpeg",
+    year: 2025,
+    type: "Full-Time",
+  },
+
+{
+    memberName: "Arav Davu",
+    company: "Pareto Technologies",
+    role: "Analyst",
+    quote: "",
+    logo: "images/placements-photos/pareto_technologies_llc_logo.jpeg",
     year: 2025,
     type: "Full-Time",
   },

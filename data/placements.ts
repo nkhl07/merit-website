@@ -64,7 +64,17 @@ export const placements: Placement[] = [
     company: "Pareto Technologies",
     role: "Analyst",
     quote: "",
-    logo: "images/placements-photos/pareto_technologies_llc_logo.jpeg",
+    logo: "public/images/placements-photos/images.jpeg",
+    year: 2025,
+    type: "Internship",
+  },
+  
+{
+    memberName: "Max Thompson",
+    company: "Orbital Launch Vehicle Team",
+    role: "Analyst",
+    quote: "",
+    logo: "images/placements-photos/images.jpeg",
     year: 2025,
     type: "Full-Time",
   },

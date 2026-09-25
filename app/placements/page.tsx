@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const execNames = new Set(teamMembers.map((m) => m.name));
+const execPlacements = placements.filter((p) => execNames.has(p.memberName));
 
 export default function PlacementsPage() {
   return (
@@ -42,7 +43,7 @@ export default function PlacementsPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateIn>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-              {placements.map((p, i) => (
+              {execPlacements.map((p, i) => (
                 <AnimateIn key={p.company} delay={i * 60}>
                   <div className="flex flex-col items-center justify-center gap-3 p-6 bg-white rounded-2xl border border-gray-100 hover:border-gray-200 hover:shadow-lg transition-all duration-300">
                     {p.logo ? (
@@ -64,9 +65,7 @@ export default function PlacementsPage() {
                       </div>
                     )}
                     <div className="text-center">
-                      {execNames.has(p.memberName) && (
-                        <div className="text-xs font-semibold text-gray-700">{p.memberName}</div>
-                      )}
+                      <div className="text-xs font-semibold text-gray-700">{p.memberName}</div>
                       <div className="text-xs text-gray-400">{p.company}</div>
                     </div>
                   </div>

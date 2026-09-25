@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { placements } from "@/data/placements";
+import { teamMembers } from "@/data/team";
 import AnimateIn from "@/components/AnimateIn";
 
 export const metadata: Metadata = {
@@ -8,6 +9,8 @@ export const metadata: Metadata = {
   description:
     "See where MERIT members from Virginia Tech have landed internships and full-time roles at top companies.",
 };
+
+const execNames = new Set(teamMembers.map((m) => m.name));
 
 export default function PlacementsPage() {
   return (
@@ -61,7 +64,9 @@ export default function PlacementsPage() {
                       </div>
                     )}
                     <div className="text-center">
-                      <div className="text-xs font-semibold text-gray-700">{p.memberName}</div>
+                      {execNames.has(p.memberName) && (
+                        <div className="text-xs font-semibold text-gray-700">{p.memberName}</div>
+                      )}
                       <div className="text-xs text-gray-400">{p.company}</div>
                     </div>
                   </div>
